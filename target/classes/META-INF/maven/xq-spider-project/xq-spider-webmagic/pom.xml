@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>xq-spider-project</groupId>
+	<artifactId>xq-spider-webmagic</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+
+	<dependencies>
+
+		<!-- webmagic核心包 -->
+		<dependency>
+			<groupId>us.codecraft</groupId>
+			<artifactId>webmagic-core</artifactId>
+			<version>0.7.3</version>
+		</dependency>
+		<!-- 默认使用TLSv1去请求 而对于一些只支持TLSv1.2的站点就会报错 -->
+		<!-- webmagic拓展包 -->
+		<dependency>
+			<groupId>us.codecraft</groupId>
+			<artifactId>webmagic-extension</artifactId>
+			<version>0.7.3</version>
+		</dependency>
+
+		<!--log4j -->
+		<!-- https://mvnrepository.com/artifact/org.slf4j/slf4j-log4j12 -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-log4j12</artifactId>
+			<version>1.7.25</version>
+			<scope>test</scope>
+		</dependency>
+
+
+	</dependencies>
+
+
+	<build />
+</project>
