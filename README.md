@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Eureka 服务注册中心<br>
 <br>
 1.这个服务注册中心eureka-server 可以把自己当做客户端 自己发现自己<br>
